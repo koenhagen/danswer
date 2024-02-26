@@ -35,4 +35,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: py.test -o junit_family=xunit2 -xv --ff backend/tests/unit
         count: 1
-        bash: 'True'
+        isBash: 'True'
